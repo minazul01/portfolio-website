@@ -67,6 +67,7 @@ header{
     background-image: url(../Images/developer.png) , url(../Images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
    
 .header-menu{
@@ -91,5 +92,53 @@ header{
 }
 .header-menu-2{
     max-width: 585px;
+    margin: 300px 0 128px 
+    
+    
+    /* main style start; */
+}
 
+main{
+    max-width: 1140px;
+    margin: 120px auto;
+}
+.section-1{
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.main-part-1{
+    max-width: 825px;
+    padding: 130px 160px;
+}
+.about-head{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+.mardy-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.about-head{
+    text-align: center;
+    margin-top: 130px ;
+}
+.me{
+    /* width: 910px; */
+    text-align: center;
+    padding: 30px 145px;
+  
+}
+.card{
+    display: flex;
+    gap: 25px;
+}
+.language-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 35px;
+}
+.heading-language-card{
+    padding: 33px 33px 33px 0;
 }
