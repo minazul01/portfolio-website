@@ -17,4 +17,41 @@
 /* nav bar style start */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 230px;
+}
+
+.span-head{
+    color: #FD6E0A;
+}
+
+.nav-head{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul a{
+    text-decoration: none;
+    
+}
+.dark-2{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav ul{
+   display: flex;  
+   align-items: center;
+}
+.pm-btn{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    color: #FFF8F3;
+    border-radius: 5px;
 }
