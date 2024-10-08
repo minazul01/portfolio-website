@@ -142,3 +142,28 @@ main{
 .heading-language-card{
     padding: 33px 33px 33px 0;
 }
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.experience{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.experience-tittle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.experience-sub-tittle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.comumn-tittle{
+   
+}
+.resume-head{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
