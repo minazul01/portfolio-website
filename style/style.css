@@ -18,9 +18,12 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 50px 230px;
+    justify-content: space-between;
+    margin: 50px 180px;
 }
+
+
+
 
 .span-head{
     color: #FD6E0A;
@@ -29,6 +32,7 @@ nav{
 .nav-head{
     font-size: 45px;
     font-weight: 800;
+   
 }
 nav ul li{
     list-style: none;
@@ -47,11 +51,45 @@ nav ul{
    display: flex;  
    align-items: center;
 }
-.pm-btn{
+.primary-btn{
     background-color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
     padding: 18px 35px;
     color: #FFF8F3;
     border-radius: 5px;
+    border: none;
+}
+
+/* hrader section start */
+
+header{
+    background-image: url(../Images/developer.png) , url(../Images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+   
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px 0 175px;
+}
+.head-1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.head-2{
+    font-size: 85px;
+    font-weight: 700;
+
+}
+.primary-paragraph-1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.header-menu-2{
+    max-width: 585px;
+
 }
