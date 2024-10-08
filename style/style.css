@@ -20,6 +20,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 180px;
+    padding-top: 40px;
 }
 
 
@@ -59,6 +60,7 @@ nav ul{
     color: #FFF8F3;
     border-radius: 5px;
     border: none;
+    
 }
 
 /* hrader section start */
@@ -68,6 +70,7 @@ header{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: #FFF8F3;
+    
 }
    
 .header-menu{
@@ -159,11 +162,52 @@ main{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.comumn-tittle{
-   
-}
 .resume-head{
     text-align: center;
     margin-top: 130px;
     margin-bottom: 110px;
+}
+.btn-coustomize{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 113px;
+    margin-left: 470px;
+    margin-right: 470px;
+}
+ .ftm{
+    display: flex;
+    background-color: #FFF8F3;
+    
+    
+ }
+    .ft-heading{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 130px 450px 20px 230px;
+}
+.ft-paragraph{
+    padding: 20px 120px 30px 230px;
+}
+.ft-img{
+    padding: 30px 260px 470px 230px;
+   
+}
+.ft-msg{
+    padding: 130px 480px 28px 0;
+} 
+.input-name{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.ft-email{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.comment{
+    padding: 10px;
+}
+.enimy{
+    padding: 20px 20px 20px 0;
 }
